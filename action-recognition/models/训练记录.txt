@@ -1,0 +1,130 @@
+----KNN------------------------------------------------------------------------------------------------
+C:\Users\yujunyu\.conda\envs\mediapipe\python.exe D:/PycharmProject(D)/ActionRecognitionBasedOnMeadipipeAndML/KNN_detection-2.0/KNN-Model.py
+------  数据集  ------
+all_data:35
+X_train:24 y_train:24 , X_test:11 y_test:11
+
+------  模型评估  ------
+y_test:
+ [2 1 1 2 1 1 1 0 1 2 2]
+y_predict:
+ [2 1 1 2 0 1 1 0 1 2 2]
+score:
+ [[0.         0.         1.        ]
+ [0.33333333 0.66666667 0.        ]
+ [0.         1.         0.        ]
+ [0.         0.         1.        ]
+ [0.66666667 0.33333333 0.        ]
+ [0.33333333 0.66666667 0.        ]
+ [0.         1.         0.        ]
+ [0.33333333 0.33333333 0.33333333]
+ [0.         1.         0.        ]
+ [0.         0.         1.        ]
+ [0.         0.         1.        ]]
+比对真实值和预测值:
+ [ True  True  True  True False  True  True  True  True  True  True]
+准确率为：
+ 0.9090909090909091
+
+Process finished with exit code 0
+
+
+
+
+
+
+----LogisticRegression------------------------------------------------------------------------------------------------
+C:\Users\yujunyu\.conda\envs\mediapipe\python.exe D:/PycharmProject(D)/ActionRecognitionBasedOnMeadipipeAndML/KNN_detection-2.0/KNN-Model.py
+------  数据集  ------
+all_data:35
+X_train:24 y_train:24 , X_test:11 y_test:11
+
+------  模型评估  ------
+y_test:
+ [2 1 1 2 1 1 1 0 1 2 2]
+y_predict:
+ [2 1 1 2 1 1 1 0 1 2 2]
+score:
+ [[0.10370866 0.05075204 0.8455393 ]
+ [0.41114105 0.55863779 0.03022116]
+ [0.15573839 0.82113086 0.02313075]
+ [0.08530324 0.07664325 0.8380535 ]
+ [0.35346116 0.60306955 0.04346929]
+ [0.41749954 0.53809294 0.04440752]
+ [0.12936973 0.829463   0.04116727]
+ [0.68502356 0.26393997 0.05103646]
+ [0.13946992 0.81943291 0.04109717]
+ [0.08530324 0.07664325 0.8380535 ]
+ [0.06379086 0.03184325 0.90436589]]
+比对真实值和预测值:
+ [ True  True  True  True  True  True  True  True  True  True  True]
+准确率为：
+ 1.0
+
+Process finished with exit code 0
+
+
+
+
+----DecisionTreeClassifier------------------------------------------------------------------------------------------------
+C:\Users\yujunyu\.conda\envs\mediapipe\python.exe D:/PycharmProject(D)/ActionRecognitionBasedOnMeadipipeAndML/KNN_detection-2.0/KNN-Model.py
+------  数据集  ------
+all_data:35
+X_train:24 y_train:24 , X_test:11 y_test:11
+
+------  模型评估  ------
+y_test:
+ [2 1 1 2 1 1 1 0 1 2 2]
+y_predict:
+ [2 1 1 2 1 1 1 0 1 2 2]
+score:
+ [[0. 0. 1.]
+ [0. 1. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]
+ [0. 1. 0.]
+ [0. 1. 0.]
+ [0. 1. 0.]
+ [1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]
+ [0. 0. 1.]]
+比对真实值和预测值:
+ [ True  True  True  True  True  True  True  True  True  True  True]
+准确率为：
+ 1.0
+
+Process finished with exit code 0
+
+
+----RandomForestClassifier------------------------------------------------------------------------------------------------
+C:\Users\yujunyu\.conda\envs\mediapipe\python.exe D:/PycharmProject(D)/ActionRecognitionBasedOnMeadipipeAndML/KNN_detection-2.0/train.py
+------  数据集  ------
+all_data:35
+X_train:24 y_train:24 , X_test:11 y_test:11
+
+------  模型评估  ------
+y_test:
+ [2 1 1 2 1 1 1 0 1 2 2]
+y_predict:
+ [2 1 1 2 1 1 1 0 1 2 2]
+score:
+ [[0.15 0.04 0.81]
+ [0.25 0.67 0.08]
+ [0.14 0.76 0.1 ]
+ [0.19 0.06 0.75]
+ [0.34 0.61 0.05]
+ [0.14 0.85 0.01]
+ [0.11 0.81 0.08]
+ [0.73 0.15 0.12]
+ [0.08 0.87 0.05]
+ [0.19 0.06 0.75]
+ [0.17 0.02 0.81]]
+比对真实值和预测值:
+ [ True  True  True  True  True  True  True  True  True  True  True]
+准确率为：
+ 1.0
+
+Process finished with exit code 0
+
+
