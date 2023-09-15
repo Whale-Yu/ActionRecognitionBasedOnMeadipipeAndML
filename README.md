@@ -55,9 +55,9 @@
 
 ### Preprocessing
 
-#### 1.提取关键点（[详见mediapipe-Fitness-counter-master/code/&使用说明-yjy.md](https://edu.gitee.com/jhcyun/repos/jhcyun/ActionRecognitionBasedOnMeadipipeAndML/blob/master/mediapipe-Fitness-counter-master/code/&%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E-yjy.md)）
+#### 1.提取关键点（[详见mediapipe-Fitness-counter-master/code/&使用说明-yjy.md](https://github.com/CrabBoss-lab/ActionRecognitionBasedOnMeadipipeAndML/blob/master/mediapipe-Fitness-counter-master/code/%26%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E-yjy.md)）
 
-#### 2.归一化处理（[action-recognition](https://edu.gitee.com/jhcyun/repos/jhcyun/ActionRecognitionBasedOnMeadipipeAndML/tree/master/action-recognition)）
+#### 2.归一化处理（[action-recognition](https://github.com/CrabBoss-lab/ActionRecognitionBasedOnMeadipipeAndML/tree/master/action-recognition)）
 
 * action-recognition下新建fitness_poses_csvs_out文件夹
 * 将第一步fitness_poses_csvs_out中的oath.csv复制
@@ -70,13 +70,13 @@
 
 ### training
 
-#### 3.训练代码（[action-recognition](https://edu.gitee.com/jhcyun/repos/jhcyun/ActionRecognitionBasedOnMeadipipeAndML/tree/master/action-recognition)）
+#### 3.训练代码（[action-recognition](https://github.com/CrabBoss-lab/ActionRecognitionBasedOnMeadipipeAndML/tree/master/action-recognition)）
 
 ```python train.py```
 
 ### predict
 
-#### 4.预测代码（[action-recognition](https://edu.gitee.com/jhcyun/repos/jhcyun/ActionRecognitionBasedOnMeadipipeAndML/tree/master/action-recognition)）
+#### 4.预测代码（[action-recognition](https://github.com/CrabBoss-lab/ActionRecognitionBasedOnMeadipipeAndML/tree/master/action-recognition)）
 
 ```python predict.py```
 
